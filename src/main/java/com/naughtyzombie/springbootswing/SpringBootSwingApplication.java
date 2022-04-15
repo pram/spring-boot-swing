@@ -13,7 +13,7 @@ public class SpringBootSwingApplication extends JFrame {
 
     private void initUI() {
 
-        var quitButton = new JButton("Quit");
+        var quitButton = new JButton("Quit.");
 
         quitButton.addActionListener((ActionEvent event) -> {
             System.exit(0);
